@@ -82,7 +82,7 @@ function Home() {
         </div>
       </div>
 
-      <hr />
+      <hr className="my-8 border-gray-300" />
     </>
   );
 }

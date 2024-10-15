@@ -24,11 +24,6 @@ const Navbar = () => {
     },
     {
       id: 4,
-      text: "Experience",
-      to: "Experience", // The target section ID
-    },
-    {
-      id: 5,
       text: "Contact",
       to: "Contact", // The target section ID
     },
