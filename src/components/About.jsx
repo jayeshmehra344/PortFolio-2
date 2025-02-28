@@ -28,11 +28,11 @@ function About() {
 
         <h1 className="text-green-600 font-semibold text-xl">Professional Experience</h1>
         <span>
-          <strong>Full Stack Developer</strong> - <em>"Saarthe"</em> (2024)<br />
-          Developed "Saarthe," a MERN stack-based web application that helps newcomers navigate cities with the help of local insights and recommendations. Implemented dynamic maps and user-generated content for personalized navigation. Integrated a backend system using Node.js and Express.js for real-time location data, with MongoDB for storing user reviews and local data.<br /><br />
+          <strong>Full Stack Developer</strong> - <em>"CoinSight"</em> (2024)<br />
+          Developed "CoinSight," a React-based cryptocurrency tracking application that provides real-time market data using the CoinGecko API. Integrated an SQL database for efficient data storage and retrieval. Designed an intuitive user interface for seamless navigation and enhanced user experience.<br /><br />
 
-          <strong>Hackathon</strong>, (2023)<br />
-          Developed a digital transaction authentication system using Large Language Models (LLMs) to analyze user behavior and authenticate transactions based on behavioral biometrics. Implemented machine learning models to extract unique behavioral features, enhancing the security of digital transactions without requiring traditional authentication methods like passwords or OTPs.<br /><br />
+          <strong>Nova</strong>, (2023)<br />
+          Developed "Nova," a virtual assistant using Python with PyQt5, Groq, and Cohere. Implemented a sleek and interactive GUI for user-friendly interactions. Integrated AI-powered natural language processing to assist with tasks, answer queries, and provide intelligent responses. Leveraged Groq and Cohere for enhanced conversational capabilities, making Nova an efficient and responsive assistant.<br /><br />
         </span>
 
         <br />

@@ -4,29 +4,49 @@ function PortFolio() {
   const projects = [
     {
       id: 1,
+      name: "CoinSight",
+      description:
+        "A crypto tracker app that provides real-time data on cryptocurrency prices, market trends, and portfolio tracking using CoinGecko API.",
+      sourceCode: "https://github.com/jayeshmehra344/CoinSight",
+      siteLink: "https://jayeshmehra344.github.io/CoinSight/",
+    },
+    {
+      id: 2,
+      name: "Nova",
+      description:
+        "A virtual assistant built with Python, featuring a sleek PyQt5 interface and AI-powered responses using Groq and Cohere.",
+      sourceCode: "https://github.com/jayeshmehra344/Nova",
+      siteLink: "https://jayeshmehra344.github.io/Nova/",
+    },
+    {
+      id: 3,
       name: "QR Code Generator",
-      description: "A simple app that generates QR codes for URLs and text inputs.",
+      description:
+        "A simple app that generates QR codes for URLs and text inputs.",
       sourceCode: "https://github.com/jayeshmehra344/QR-code-generator",
       siteLink: "https://jayeshmehra344.github.io/QR-code-generator/",
     },
     {
-      id: 2,
+      id: 4,
       name: "Weather App",
-      description: "A weather forecasting app that provides real-time data using OpenWeather API.",
+      description:
+        "A weather forecasting app that provides real-time data using OpenWeather API.",
       sourceCode: "https://github.com/jayeshmehra344/Weather-App",
       siteLink: "https://jayeshmehra344.github.io/Weather-App/",
     },
     {
-      id: 3,
+      id: 5,
       name: "Portfolio",
-      description: "A personal portfolio showcasing skills, projects, and experience as a web developer.",
+      description:
+        "A personal portfolio showcasing skills, projects, and experience as a web developer.",
       sourceCode: "https://github.com/jayeshmehra344/potfoli-o",
       siteLink: "https://jayeshmehra344.github.io/potfoli-o/",
     },
     {
-      id: 4,
+      id: 6,
       name: "Time Vault",
-      description: "An application to track time and store important moments and tasks securely.",
+      description:
+        "An application to track time and store important moments and tasks securely.",
       sourceCode: "https://github.com/jayeshmehra344/Time-Vault",
       siteLink: "https://jayeshmehra344.github.io/Time-Vault/",
     },
@@ -72,7 +92,7 @@ function PortFolio() {
           ))}
         </div>
         {/* Horizontal Rule */}
-        <hr className="my-8 border-gray-300" /> {/* Styled horizontal rule */}
+        <hr className="my-8 border-gray-300" />
       </div>
     </div>
   );
